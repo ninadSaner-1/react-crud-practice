@@ -1,0 +1,52 @@
+.EditUserModal {
+	height: 100%;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5rem;
+
+	&__Title {
+		h3 {
+			font-weight: 500;
+		}
+	}
+
+	&__Body {
+		display: block;
+
+		&__Form {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			row-gap: 1rem;
+		}
+
+		&__Form_Field {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			row-gap: 0.25rem;
+
+			&__Label {
+				display: block;
+			}
+
+			&__Input {
+				padding: 0.5rem;
+				border-radius: 4px;
+				border: 1px solid lightgray;
+			}
+		}
+	}
+
+	&__Actions {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1rem;
+		margin-top: 1.5rem;
+	}
+}

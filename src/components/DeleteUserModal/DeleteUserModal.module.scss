@@ -1,0 +1,23 @@
+ 
+.DeleteUserModal {
+	height: 100%;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5rem;
+
+	&__Title {
+
+	}
+
+	&__Actions {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1rem;
+
+	}
+}

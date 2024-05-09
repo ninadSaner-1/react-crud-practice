@@ -1,0 +1,27 @@
+.App {
+	// min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	// justify-content: center;
+	// align-items: center;
+	gap: 1rem;
+	padding: 1.5rem;
+}
+
+.Table__Actions {
+	display: flex;
+	align-items: center;
+	// justify-content: center;
+	gap: 1rem;
+}
+
+.TableContainer {
+	--pad-mar-gap: 1rem;
+	min-height: calc(100vh - var(--pad-mar-gap) * 4 - 4rem);
+	max-height: calc(100vh - var(--pad-mar-gap) * 4 - 4rem);
+	display: flex;
+    flex-direction: column;
+    gap: var(--pad-mar-gap);
+    overflow-x: auto;
+
+}

@@ -1,0 +1,28 @@
+.Modal__Backdrop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #0000004a;
+
+	display: grid;
+	place-items: center;
+
+	.Modal {
+		width: 60%;
+		padding: 1rem;
+		border-radius: 10px;
+		background-color: white;
+		position: relative;
+
+		&__Close {
+			position: absolute;
+			right: 16px;
+			top: 8px;
+			color: gray;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			cursor: pointer;
+		}
+	}
+}
