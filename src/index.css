@@ -1,0 +1,16 @@
+html {
+	--bg-color: #27b0ff;
+	--color: white;
+	--hover-bg-color: #3fb6fb;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.Btn__Danger {
+	--bg-color: #ff2727;
+	--color: white;
+	--hover-bg-color: #fb4c4c;
+}
